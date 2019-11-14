@@ -1,14 +1,14 @@
 # iot_project
 
-Place file in the directory same as libftd2xx.1.4.16.dylib
+Place file in the directory same as `libftd2xx.1.4.16.dylib`
 
 ### To Compile:
 
-gcc libftd2xx.1.4.16.dylib lamp_sensor.c -o iot
+`gcc libftd2xx.1.4.16.dylib lamp_sensor.c -o iot`
 
 ### To Run:
 
-./iot 1000
+`./iot 1000`
 
 ### Changeable Variables
 
@@ -23,4 +23,4 @@ gcc libftd2xx.1.4.16.dylib lamp_sensor.c -o iot
 #define CS_SHDN D2
 ```
 
-You can change the variables here to light up the lamp.
+You can change the variables above in `lamp_sensor.c` here to light up the lamp.
